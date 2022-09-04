@@ -1,0 +1,122 @@
+body{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 5% 10% 0% 10%;
+    text-align: center;
+    background-image: linear-gradient(120deg, #f7dd8b 0%, #fcb5a1 100%);
+}
+
+header{
+    text-align: initial;
+    display: inline-block;
+    margin-bottom: 0;
+}
+
+.topo{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav{
+    position: absolute;
+    width: 100%;
+    text-align: right;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+nav li{
+    display: inline;
+    font-weight: bold;
+    margin: 0px 6px 0px 6px;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+img{
+    width: 100%;
+}
+
+li{
+    list-style-type: none;    
+} 
+
+main{
+    width: 940px;
+    margin: auto;
+}
+
+form{
+    text-align: justify;
+    margin: auto 0;
+}
+
+form label, form legend{
+    display: block;
+    margin: 5px 0px;
+    text-transform: uppercase;   
+}
+
+.input-padrao{
+    display: block;
+    margin: 10px 0px 10px 2px;
+    padding: 10px;
+    width: 50%;
+}
+
+textarea{
+    margin-bottom: 10px;
+}
+
+fieldset label{
+    text-transform:capitalize;
+    margin-left: 10px;
+}
+
+.checkbox{
+    text-transform:unset;
+}
+
+.enviar{
+    margin-left: 50%;
+    padding: 10px;
+    background-color: #f7dd8b;
+    border: #fa8e70 solid;
+    border-radius: 3px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.enviar:hover{
+    background-color:#fa8e70;
+    transform: '';
+}
+
+footer{
+    justify-content: space-around; 
+    display: flex; 
+    list-style-type: none;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 0%;
+} 
+
+.texto-rodape{
+    font-size: small;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 0%;
+} 
+
+.contatoimg{
+    width: 15px;
+    text-align: center;
+}
+
+a:hover{
+    color: rgb(156, 26, 26);
+    text-decoration: underline;
+}

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encomende Peças Exclusivas</title>
+    <link rel="stylesheet" href="formulario.css">
+</head>
+<body>
+    <header>
+    <div class="topo">
+        <h1>Joalheria da Gê & LounGÊrie</h1>
+        <nav>
+            <ul>
+               <li><a href="index.html" rel="noopener no referrer">
+                Início |</a></li>
+
+                <li><a href="catalogo joias.html" target="_blank" rel="noopener noreferrer">
+                Jóias |</a></li>
+                
+                <li><a href="catalogo lingeries.html" target="_blank" rel="noopener noreferrer">
+                Lingeries |</a></li>
+                
+                <li><a alt="vai para fale conosco" href="#encomende">
+                Encomende Peças Exclusivas</a></li>
+            </ul>
+        </nav>
+    </div>     
+    <img class="principal" src="fundo.jpg" alt="fundo dourado brilhante"> 
+    </header>
+    <br> <br>
+    <main>
+        <form>
+            <label for="nomecompleto"> Nome completo:</label>
+            <input type="text" id="nomecompleto" placeholder="Digite seu nome" class= "input-padrao" required>
+        
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="Digite seu melhor email" class= "input-padrao" required>
+        
+            <label for="telefone">Telefone:</label>
+            <input type="tel" id="telefone" placeholder="Digite seu telefone com DDD (00) 0 0000-0000 " class= "input-padrao" required>
+          
+            <label for="tipo">O que deseja encomendar?</label>
+            <input type="text" id="tipo" placeholder="Digite se jóia ou lingerie" class= "input-padrao">
+     
+            <label for="mensagem">Há algo a detalhar?</label>
+            <textarea cols="50" rows="10" id="mensagem" required></textarea>
+            
+            <fieldset style="border: none;">
+                <legend>Como prefere nosso contato?</legend>
+                    <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">Email</label>
+                    
+                    <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone">Telefone/Celular</label>
+                    
+                    <label for="radio-wts" ><input type="radio" name="contato" value="whatsapp" id="radio-wts" checked>WhatsApp</label>
+            </fieldset>
+                
+            <fieldset style="border: none ;">
+                <legend>Qual melhor turno para o atendimento?</legend>
+                <select>
+                    <option>Manhã</option>
+                    <option>Tarde</option>
+                    <option>Noite</option>
+                </select>
+            </fieldset>
+                    <label class="checkbox"><input type="checkbox" checked>Gostaria de receber nossas novidades?</label>
+
+                    <input class="enviar" type="submit" value="Enviar formulário">
+        </form>
+    </main>
+
+        <br><br> <hr> 
+    <footer>
+        <li>
+            <h4>Fale Conosco</h4> 
+                 <img class="contatoimg" src="o-email (2).png" alt="figura carta">
+                 <p class="texto-rodape">  
+                 lojadage@gmail.com / <br> loungerie@gmail.com
+                 </p>
+                     <a name="encomende"></a> <br>          
+                 <img class="contatoimg" src="bolha-de-bate-papo.png" alt="figura telfone"> 
+                 <p class="texto-rodape">(71) 9 0000-0000 </p>
+        </li>
+
+        <li>
+            <h4>Trabalhe Conosco</h4> 
+                 <p class="texto-rodape">         
+                 Envie seu currículo para: <br> lojadage@recrutamento.com
+                 </p>    
+        </li>
+    </footer> <br><br>
+                
+            <h6 class="htitulo">Desenvolvido por <a href="https://github.com/Geice-Sousa" target="_blank">
+            Geice Sousa</a> <br>
+            Todos os direitos reservados &copy; 2022.</h6>
+       
+
+</body>
+</html>
